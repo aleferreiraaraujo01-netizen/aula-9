@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript no head e no body</title>
+
+    <style>
+        .destaque{
+            color:aquamarine;
+            font-size: 30px;
+            font-weight: bold;
+        }
+    </style>
+
+    <script>
+        alert("o javascript do cabeçalho foi executado!")
+    </script>
+
+</head>
+<body>
+    <h1>JavaScript incorporado</h1>
+
+        <p>este conteudo foi escrito diretamente com HTML</p>
+
+        <script>
+            documnet.write('<p class="destaque">este conteudo foi criado pelo javascript</p>');
+        </script>
+</body>
+</html>
